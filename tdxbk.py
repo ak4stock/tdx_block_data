@@ -8,7 +8,7 @@ from struct import unpack
 自动会更新本地数据库文件，在上午9：00之后登录通达信行情软件就会自动更新。
 '''
 
-# 本地通达信安装路径
+# 本地通达信安装路径 C:/tdx
 PATH = 'C:/tdx/T0002/hq_cache/'
 
 def get_block_file(block='gn'):
